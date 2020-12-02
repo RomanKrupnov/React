@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanKrupnov/React.git"
+  },
+  "author": "Крупнов Роман",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanKrupnov/React/issues"
+  },
+  "homepage": "https://github.com/RomanKrupnov/React#readme",
+  "dependencies": {
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.13"
+  }
+}
