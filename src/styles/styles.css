@@ -1,0 +1,130 @@
+h1{
+    margin: 0;
+    padding: 0;
+}
+.message-field {
+    display: flex;
+    flex-direction: column;
+    background-color: #e2e2e2;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.layout {
+    height: 100%;
+    width: 70%;
+    margin: 0 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.message {
+    /*background-color: lightblue;*/
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.message-sender {
+    color: gray;
+    font-size: 14px;
+}
+
+.main-layout{
+
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+}
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.chat-list{
+    width: 30%;
+}
+
+body {
+    min-height: 1vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    margin-top: 1px;
+}
+.message-field {
+    display: flex;
+    flex-direction: column;
+    background-color: #e2e2e2;
+    height: 500px;
+    width: 90%;
+    overflow-y: scroll;
+}
+
+.layout {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.layout-canvas{
+    width: 100%;
+    display: flex;
+}
+.message {
+    background-color: lightblue;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.message-sender {
+    color: gray;
+}
+
+.textField {
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-color: lightblue;
+    align-content: center;
+}
+
+.chatList {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+.layout-right-side{
+    width: 800px;
+    height: 300px;
+}
+.layout-left-side{
+    width: 400px;
+    height: 300px;
+    background-color: lightgrey;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    margin-left: 300px;
+}
+
+
